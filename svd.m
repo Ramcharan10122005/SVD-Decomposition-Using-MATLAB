@@ -1,0 +1,10 @@
+A = [1 0 1; -1 -2 0; 0 1 -1];
+disp("the matrix A is:");
+disp(A);
+[U,S,V]=svd(A);
+disp("the matrix U is:");
+disp(U);
+disp("the matrix S is:");
+disp(S);
+disp("the matrix V is:");
+disp(V);
